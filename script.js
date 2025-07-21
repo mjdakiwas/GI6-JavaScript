@@ -82,7 +82,7 @@ for (let i = 0; i < playerChoices.length; i++) {
             playerMoney -= 10;
         }
         moneyDisplay.textContent = playerMoney;
-        console.log(`Player Money: ${playerMoney} | Computer Money: ${compMoney}`);
+        //console.log(`Player Money: ${playerMoney} | Computer Money: ${compMoney}`);
 
         if (shouldCompHanddown()) {
             isPlaying = false;
@@ -114,7 +114,7 @@ function startGame() {
     playerStat.textContent = '';
     end.style.display = 'none';
     game.style.display = 'grid';
-    console.log(`New Game: Player Money = ${playerMoney} | Computer Money = ${compMoney}`);
+    //console.log(`New Game: Player Money = ${playerMoney} | Computer Money = ${compMoney}`);
 }
 
 function endGame() {
